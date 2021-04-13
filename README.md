@@ -1,4 +1,4 @@
-docker-osticket
+OsTicket
 ===============
 
 # Introduction
