@@ -1,11 +1,10 @@
-OsTicket
+osticket - Installation
 ===============
 
 # Introduction
 
 Docker image for running version 1.14.3 of [OSTicket](http://osticket.com/).
 
-This image has been created from the original docker-osticket image by [Petter A. Helset](mailto:petter@helset.eu).
 
 It has a few modifications:
 
