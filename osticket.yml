@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: osticket
+  labels:
+    app: osticket
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: osticket
+  template:
+    metadata:
+      labels:
+        app: osticket
+    spec:
+      nodeSelector:
+        type: backend
+      containers:
+        - name: osticket
+          image: amoniacou/osticket
+          ports:
+            - containerPort: 8080
